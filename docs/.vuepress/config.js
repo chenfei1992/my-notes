@@ -116,22 +116,8 @@ module.exports = {
       md.use(require('markdown-it-xxx'));
     }
   }
-  // base: '/bar/'
+  base: '/my-notes/'
 };
 
-Array.prototype.myReverse = function(){
-  let arr = this
-  if(!arr.length) return arr
-  let left = 0, right = arr.length-1;
-  while(left < right){
-    [arr[left],arr[right]] = [arr[right],arr[left]];
-    left++
-    right--
-  }
-  return arr
-};  
-var arr = [1,2,3,4,5,6,7];
-var arr1 = [1,2,3,4,5,6,7,8];
-console.log(arr.myReverse())
-console.log(arr1.myReverse())
+
 
