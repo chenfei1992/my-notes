@@ -115,7 +115,7 @@ module.exports = {
     config: md => {
       md.use(require('markdown-it-xxx'));
     }
-  }
+  },
   base: '/my-notes/'
 };
 
