@@ -1,5 +1,4 @@
 {
-  "homepage": "https://chenfei1992.github.io/my-notes/",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
